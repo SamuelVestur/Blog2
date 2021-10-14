@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0%;
+  background: rgb(231, 227, 227);
+}
+
+header {
+  display: block;
+}
+
+h1 {
+  background: #fff;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  padding: 55px;
+  margin: 0;
+}
+
+img {
+  width: 687px;
+  height: 254px;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  *zoom: 1;
+}
+
+.group {
+  padding: 30px;
+}
