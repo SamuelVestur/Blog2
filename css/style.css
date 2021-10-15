@@ -4,6 +4,10 @@ body {
   background: rgb(231, 227, 227);
 }
 
+main {
+  border-top: 2px solid rgb(81, 105, 209);
+}
+
 header {
   display: block;
 }
@@ -149,4 +153,26 @@ h2 {
   text-align: center;
 
   border-radius: 5px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 19px;
+}
+
+.link-right:hover {
+  background: rgb(216, 17, 27);
+}
+
+footer {
+  padding: 20px;
+  border-top: 2px solid rgb(81, 105, 209);
+
+  margin-top: 20px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 20px;
+}
+
+footer p::after {
+  content: " . ";
 }
