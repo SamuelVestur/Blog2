@@ -9,3 +9,5 @@ _praca na blogu zatial len zaciatok_
 * pridany text
 * opraveny contajner
 * jeden layout
+
+* pridany layout v pravo
