@@ -11,3 +11,5 @@ _praca na blogu zatial len zaciatok_
 * jeden layout
 
 * pridany layout v pravo
+
+* Dokoncena stranka ale este ju budem optimalizovat v kode
