@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   background: rgb(231, 227, 227);
+  font-family: "Ubuntu", sans-serif;
 }
 
 main {
@@ -113,7 +114,7 @@ h2 {
   background: #fff;
   float: right;
   width: 371px;
-  height: 460px;
+  height: 500px;
 
   position: absolute;
   top: 210px;
@@ -175,4 +176,51 @@ footer p {
 
 footer p::after {
   content: " . ";
+}
+
+.group-bottom:before,
+.group-bottom:after {
+  content: " ";
+  display: table;
+}
+
+.group-bottom:after {
+  clear: both;
+}
+
+.group-bottom {
+  *zoom: 1;
+}
+
+.group-bottom {
+  background: #fff;
+  float: right;
+  width: 371px;
+  height: 343px;
+
+  position: absolute;
+  right: 201px;
+  bottom: -319px;
+}
+
+.nadpis-bottom {
+  text-align: left;
+  padding-left: 0;
+  margin-left: 20px;
+
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.text-bottom {
+  line-height: 30px;
+  display: block;
+  float: left;
+  margin-left: 20px;
+  margin-right: 40px;
+  color: rgb(190, 190, 190);
+}
+
+.link-bottom {
+  margin-left: 20px;
 }
